@@ -26,19 +26,19 @@ Requirements
 ------------  
   
 #### For Windows / Linux:   
-- Python 3 and above should be installed on the system.  
+- Python (3 or above) should be installed on the system.  
 - Run this command in the terminal / cmd:  
 ```  
 pip install requirements.txt  
 ```  
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl) is being used to download the songs. It uses ffmpeg to convert the downloaded song to mp3 extension. Make sure [ffmpeg](https://ffmpeg.org/) is installed on the system. It will be used for conversions among song formats. (Works best with Linux systems)   
-- Youtube Data API v3 is used to get the search results. Make sure you have the key to access it and just insert it in the main.py file. (for api_key placeholder)  
+- Youtube Data API v3 is used to get the search results. Make sure you have the key to access it and just insert it in the config.py file. (for api_key placeholder)  
 - You are good to go.  
   
   
 Usage  
 ------------------  
-- Once the dependencies are installed, just run the following code to start the tkinter application:  
+- Once the dependencies are installed, just run the following to start the tkinter application:  
 ```  
 python main.py  
 ```  
