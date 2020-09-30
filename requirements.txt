@@ -6,4 +6,5 @@ Pillow==7.2.0
 pygame==1.9.6
 pyinstaller==4.0
 requests==2.24.0
+py-holiday-calendar==0.0.5
 youtube-dl==2020.7.28

@@ -29,7 +29,7 @@ Requirements
 - Python (3 or above) should be installed on the system.  
 - Run this command in the terminal / cmd:  
 ```  
-pip install requirements.txt  
+pip install -r requirements.txt  
 ```  
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl) is being used to download the songs. It uses ffmpeg to convert the downloaded song to mp3 extension. Make sure [ffmpeg](https://ffmpeg.org/) is installed on the system. It will be used for conversions among song formats. (Works best with Linux systems)   
 - Youtube Data API v3 is used to get the search results. Make sure you have the key to access it and just insert it in the config.py file. (for api_key placeholder)  
@@ -44,7 +44,7 @@ python main.py
 ```  
 - After that, the interface is pretty elementary to work on.  
 - Just enter the name of song / artist and after the download is complete, you can simply browse the file through the app and can play the song. (All downloaded songs will be converted to mp3, given that ffmpeg is working fine!)  
-- You can also bundle the code using pyinstaller and make an executable which is portable. Just run the following command in the terminal:  
+- You can also bundle the code using pyinstaller and make an executable which is portable. Just run the following command in the terminal (can use your icon):  
 ```  
 pyinstaller.exe --onefile --icon=your_app_icon.ico main.py  
 ```  
