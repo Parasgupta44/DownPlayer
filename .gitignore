@@ -3,6 +3,9 @@
 *.mp3
 .idea/
 script.py
+temp.py
+check.py
+random.py
 temp/
 __pycache__/
 *.py[cod]
